@@ -1,0 +1,27 @@
+# 敏感信息：绝不提交
+.env
+*.pem
+*.key
+
+# 数据库文件（由 scripts/init_db.py 生成）
+*.db
+*.db-wal
+*.db-shm
+data/
+
+# 打包产物
+dist/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+.DS_Store

@@ -1,0 +1,66 @@
+/* ==========================================================================
+   主题令牌 —— 只放变量，不放选择器。
+   观感对齐参考项目的 Element Plus 默认主题，色值一一对应，
+   这样从 Vue 版本切过来的人不会觉得「换了套系统」。
+   ========================================================================== */
+
+:root {
+  /* 主色：Element Plus 的 --el-color-primary */
+  --c-primary: #409eff;
+  --c-primary-light-3: #79bbff;
+  --c-primary-light-5: #a0cfff;
+  --c-primary-light-7: #c6e2ff;
+  --c-primary-light-9: #ecf5ff;
+  --c-primary-dark-2: #337ecc;
+
+  --c-success: #67c23a;
+  --c-success-light-9: #f0f9eb;
+  --c-warning: #e6a23c;
+  --c-warning-light-9: #fdf6ec;
+  --c-danger: #f56c6c;
+  --c-danger-light-9: #fef0f0;
+  --c-info: #909399;
+  --c-info-light-9: #f4f4f5;
+
+  /* 文字 */
+  --t-primary: #303133;
+  --t-regular: #606266;
+  --t-secondary: #909399;
+  --t-placeholder: #a8abb2;
+  --t-disabled: #c0c4cc;
+
+  /* 边框与背景 */
+  --b-base: #dcdfe6;
+  --b-light: #e4e7ed;
+  --b-lighter: #ebeef5;
+  --b-extra-light: #f2f6fc;
+  --bg-page: #f5f7fa;
+  --bg-white: #ffffff;
+  --bg-hover: #f5f7fa;
+
+  /* 圆角 */
+  --r-sm: 4px;
+  --r-md: 6px;
+  --r-lg: 10px;
+
+  /* 阴影 */
+  --sh-sm: 0 1px 2px rgba(0, 0, 0, .06);
+  --sh-md: 0 2px 12px rgba(0, 0, 0, .1);
+  --sh-lg: 0 8px 32px rgba(0, 0, 0, .16);
+
+  /* 尺寸 */
+  --h-input: 32px;
+  --h-button: 32px;
+  --sidebar-w: 220px;
+  --header-h: 56px;
+  --drawer-w: 380px;
+
+  /* 层级 */
+  --z-drawer: 1000;
+  --z-modal: 2000;
+  --z-toast: 3000;
+
+  --font: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+          "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
