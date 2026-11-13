@@ -1,5 +1,7 @@
 # 高校选课管理系统（Python + SQLite）
 
+**简体中文** | [English](README.en.md)
+
 一套完整的选课管理系统：管理员排课与管课、教师查看名单与录入成绩、学生选课退课看课表，
 外加一个按角色隔离的 AI 助手。功能点与参考项目（Vue 3 + Spring Boot 3 + MySQL 8 版本）
 逐项对齐，技术栈换成 **Python + FastAPI + SQLite**。
